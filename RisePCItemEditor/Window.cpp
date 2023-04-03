@@ -90,7 +90,7 @@ System::Void RisePCItemEditor::Window::OpenGameProcess()
 {
 	if (ProcessHandle == INVALID_HANDLE_VALUE)
 	{
-		HWND hwnd = FindWindowA(NULL, "MonsterHunterRise");
+		HWND hwnd = FindWindowA(NULL, "Monster Hunter Rise");
 		if (!hwnd)
 		{
 			throw gcnew System::Exception("Could not find MonsterHunterRise window. Please open the game.");
